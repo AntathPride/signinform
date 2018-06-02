@@ -1,0 +1,126 @@
+<DOCTYPE! html>
+<html>
+	<head>
+	<!-- Maked by Antath , https://www.youtube.com/channel/UCz9IWFTv7Z9gKFeno76I5rg -->
+		<title>Sign In Form HTML</title>
+		<style>
+			body {
+				background-size: cover;
+				background-image: url("https://preview.ibb.co/mvngdJ/cover.jpg");
+		}
+			div {
+				background-color: #CCE5FF;
+				margin-left: 400px;
+				margin-right: 400px;
+				margin-top: 40px;
+				margin-bottom: 50px;
+				border-radius: 20px;
+				font-family: Ubuntu;
+				font-color: black;
+		}
+			input.uno {
+				margin-left: 75px;
+				margin-right: 75px;
+				margin-top: 0px;
+				margin-bottom: 10px;
+				border: none;
+				border-radius: 5px;
+				font-color: black;
+				width: 300px;
+				height: 30px;
+				transition: 1s;
+		<!-- Maked by Antath , https://www.youtube.com/channel/UCz9IWFTv7Z9gKFeno76I5rg -->
+				
+		}
+			input.due {
+				margin-left: 75px;
+				margin-right: 75px;
+				margin-top: 0px;
+				margin-bottom: 10px;
+				border: none;
+				border-radius: 5px;
+				font-color: black;
+				width: 300px;
+				height: 30px;
+				transition: 1s;
+				
+		}
+			input.tres {
+				margin-left: 100px;
+				margin-right: 20px;
+				margin-top: 0px;
+				margin-bottom: 10px;
+				border: none;
+				border-radius: 5px;
+				font-color: black;
+				width: 15px;
+				height: 15px;
+				transition: 1s;
+				
+		}
+			input.quatro {
+				margin-left: 100px;
+				margin-right: 20px;
+				margin-top: 0px;
+				margin-bottom: 10px;
+				background-color: #0080FF;
+				border: none;
+				border-radius: 5px;
+				font-color: black;
+				width: 300px;
+				height: 30px;
+				transition: 1s;
+		}
+		<!-- Maked by Antath , https://www.youtube.com/channel/UCz9IWFTv7Z9gKFeno76I5rg -->
+			select {
+				margin-left: 75px;
+				margin-right: 75px;
+				margin-top: 0px;
+				margin-bottom: 10px;
+				border: none;
+				border-radius: 5px;
+				font-color: black;
+				width: 300px;
+				height: 30px;
+				transition: 1s;
+		}
+			input:hover {
+				background-color: #66B2FF;
+		}
+			p {
+				margin-left: 80px;
+				margin-right: 75px;
+				margin-top: 0px;
+				margin-bottom: 10px;
+		}
+		</style>
+	</head>
+		<!-- Maked by Antath , https://www.youtube.com/channel/UCz9IWFTv7Z9gKFeno76I5rg -->
+	<body>
+		<div>
+			<h1 align="center">Sign In</h1>
+			<form>
+				<p>E-mail: </p>
+					<input type="text" class="uno" name="E-mail" value="">
+						<br>
+					<p>Nickname: </p>
+					<input type="text" class="uno" name="Nickname" value="">
+						<br>
+				<p>Password: </p>
+					<input type="password" class="uno" name="Password" value="">
+						<br>
+				<p>Gender: </p>
+					<select name="Gender">
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+					</select>
+				<input class="tres" type="checkbox">I accept terms and conditions.<br>
+						<br>
+				<input class="quatro" type="submit" value="Sign Me!">
+						<br>
+			</form>
+		</div>
+	</body>
+		<!-- Maked by Antath , https://www.youtube.com/channel/UCz9IWFTv7Z9gKFeno76I5rg -->
+</html>
+	
